@@ -6,10 +6,11 @@ import * as actions from '../actions';
 
 class ListItem extends Component {
   renderItem() {
-    return (this.props.library.item.id === this.props.selectedLibraryId ?
-      (<Text>{this.props.library.item.description}</Text>
-      ) : null
-    )
+    return this.props.expanded ? (
+      <Text style={styles.popUpTextStyle}>
+        {this.props.library.item.description}
+      </Text>
+    ) : null;
   }
 
   render() {
@@ -29,13 +30,18 @@ class ListItem extends Component {
 
 const styles = StyleSheet.create({
   titleStyle: {
-    fontSize: 15,
+    fontSize: 25,
     paddingLeft: 15,
+  },
+  popUpTextStyle: {
+    fontSize: 18,
+    padding: 15,
   },
 });
 
-const mapStateToProps = (state) => {
-  return { selectedLibraryId: state.selectedLibraryId };
+const mapStateToProps = (state, ownProps) => {
+  const expanded = state.selectedLibraryId === ownProps.library.item.id;
+  return { expanded };
 };
 
 export default connect(mapStateToProps, actions)(ListItem);
