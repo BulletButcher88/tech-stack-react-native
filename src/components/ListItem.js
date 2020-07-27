@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
-import { Text, StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
+import {
+  Text,
+  StyleSheet,
+  TouchableWithoutFeedback,
+  View,
+  LayoutAnimation
+} from 'react-native';
 import { connect } from 'react-redux';
 import CardSection from './common/CardSection';
 import * as actions from '../actions';
 
 class ListItem extends Component {
+  UNSAFE_componentWillUpdate() {
+    LayoutAnimation.easeInEaseOut();
+  }
+
   renderItem() {
     return this.props.expanded ? (
-      <Text style={styles.popUpTextStyle}>
-        {this.props.library.item.description}
-      </Text>
+      <CardSection>
+        <Text style={styles.popUpTextStyle}>
+          {this.props.library.item.description}
+        </Text>
+      </CardSection>
     ) : null;
   }
 
@@ -36,6 +48,7 @@ const styles = StyleSheet.create({
   popUpTextStyle: {
     fontSize: 18,
     padding: 15,
+    flex: 1,
   },
 });
 

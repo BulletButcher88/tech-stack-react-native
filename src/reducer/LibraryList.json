@@ -1,47 +1,32 @@
 [
   {
     "id": "0",
-    "title": "Webpack",
-    "description": "Webpack is a module bundler. It packs CommonJs/AMD modules i. e. for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand."
+    "title": "Bathroom",
+    "description": "Clean the bathroom means wiping down and ensuring no dirty spots are in the bath, sink, toilet or walls. To keep bath mats and hand towels washed and check on hand soap"
   },
   {
     "id": "1",
-    "title": "React",
-    "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes."
+    "title": "Floors",
+    "description": "Keeping the floors clean is an important job in keeping insects and mouses out of the house. I means to do daily sweeps of the kitchen floor and once per week give the house a vacuum then wash. Its best to put some water in the laundry sink, some bleach and floor clearing products instead of using a bucket."
   },
   {
     "id": "2",
-    "title": "Redux",
-    "description": "Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test."
+    "title": "Bins",
+    "description": "The bins go out each week, except the green waste bins, which go out each fortnight. Take care of keeping bins in the kitchen, bathroom and help educate the housemates about recycling bin requirements. Bring in the bins once the rubbish has been collected and if the bins are smelly, please give them a wash"
   },
   {
     "id": "3",
-    "title": "React-Redux",
-    "description": "React-Redux is the official set of bindings between the React and Redux libraries. With this library you can keep your views and data in sync."
+    "title": "De-clutter",
+    "description": "The house has been a share-house for a long time and it has accumulated a lot of unwanted items. THe most important part is making sure the fridge is kept clean and that shelves in the kitchen are not overflowing with items left behind. There is also a lot of piled up items around the house, with some communication in the group chat try clear up areas to make the place nice."
   },
   {
     "id": "4",
-    "title": "Lodash",
-    "description": "A modern JavaScript utility library delivering modularity, performance, & extras. Lodash is released under the MIT license & supports modern environments."
+    "title": "Gardening",
+    "description": "The garden is always the neglected part of the house. This job is to give around 1.5hr per month in gardening work, cutting back trees and clearing out green waste"
   },
   {
     "id": "5",
-    "title": "Redux-Thunk",
-    "description": "Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met."
-  },
-  {
-    "id": "6",
-    "title": "ESLint",
-    "description": "ESLint is an open source JavaScript linting utility originally created by Nicholas C. Zakas in June 2013. Code linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn't adhere to certain style guidelines."
-  },
-  {
-    "id": "7",
-    "title": "Babel",
-    "description": "Babel has support for the latest version of JavaScript through syntax transformers. These plugins allow you to use new syntax, right now without waiting for browser support."
-  },
-  {
-    "id": "8",
-    "title": "Axios",
-    "description": "Promise based HTTP client for the browser and node.js. With Axios, you can make XMLHttpRequests from the browser or Node with the full Promise Api."
+    "title": "Problem?",
+    "description": "If there is an issue with a housemate, try be understanding of that person situation and let them know of the issue. If it starts to get nasty or the problem continues, let Mark know and he will try resolve it."
   }
 ]
